@@ -1,0 +1,57 @@
+.admin-orders-page {
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+.btn-action-approve {
+  background-color: rgba(54, 185, 204, 0.1);
+  color: #36b9cc;
+  border: none;
+  width: 36px;
+  height: 36px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: var(--transition);
+}
+
+.btn-action-approve:hover {
+  background-color: #36b9cc;
+  color: white;
+}
+
+.btn-action-complete {
+  background-color: rgba(28, 200, 138, 0.1);
+  color: #1cc88a;
+  border: none;
+  width: 36px;
+  height: 36px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: var(--transition);
+}
+
+.btn-action-complete:hover {
+  background-color: #1cc88a;
+  color: white;
+}
+
+.btn-action-cancel {
+  background-color: rgba(231, 76, 60, 0.1);
+  color: #e74c3c;
+  border: none;
+  width: 36px;
+  height: 36px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: var(--transition);
+}
+
+.btn-action-cancel:hover {
+  background-color: #e74c3c;
+  color: white;
+}

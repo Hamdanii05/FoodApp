@@ -1,0 +1,67 @@
+.admin-dashboard-page {
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+.admin-page-title {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  margin-bottom: 32px;
+  color: var(--text-dark);
+}
+
+.stat-card-admin {
+  border: none;
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-sm);
+  transition: var(--transition);
+}
+
+.stat-card-admin:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-md);
+}
+
+.stat-card-admin .card-body {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 24px;
+}
+
+.stat-icon-admin {
+  width: 56px;
+  height: 56px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+}
+
+.stat-label-admin {
+  font-size: 0.85rem;
+  color: var(--text-warm);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.stat-value-admin {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 800;
+  font-size: 1.4rem;
+  color: var(--text-dark);
+}
+
+.welcome-card-admin {
+  border: none;
+  border-radius: var(--radius-lg);
+  background: linear-gradient(135deg, var(--bg-dark), var(--bg-surface));
+  color: white;
+  padding: 20px;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}

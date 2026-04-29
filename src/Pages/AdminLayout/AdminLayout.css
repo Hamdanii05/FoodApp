@@ -1,0 +1,75 @@
+.admin-layout {
+  display: flex;
+  background-color: #f8f9fc;
+  min-height: 100vh;
+}
+
+.admin-main-content {
+  flex: 1;
+  margin-left: 260px;
+  padding: 40px;
+  transition: var(--transition);
+}
+
+.admin-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.admin-mobile-toggle {
+  display: none;
+  position: fixed;
+  top: 15px;
+  left: 15px;
+  z-index: 1002;
+  background: var(--accent-orange, #e67e22);
+  color: white;
+  border: none;
+  width: 45px;
+  height: 45px;
+  border-radius: 8px;
+  font-size: 1.5rem;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.admin-mobile-toggle:hover {
+  background: #d35400;
+}
+
+.admin-sidebar-overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0,0,0,0.5);
+  z-index: 1000;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+@media (max-width: 991px) {
+  .admin-main-content {
+    margin-left: 0;
+    padding-top: 80px; /* Make space for hamburger toggle */
+  }
+  
+  .admin-mobile-toggle {
+    display: flex;
+  }
+  
+  .admin-sidebar-overlay {
+    display: block;
+    pointer-events: none;
+  }
+
+  .admin-sidebar-overlay.active {
+    opacity: 1;
+    pointer-events: auto;
+  }
+}

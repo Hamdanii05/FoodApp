@@ -1,0 +1,100 @@
+.checkout-page {
+  padding: 40px 0 80px;
+  background-color: var(--bg-cream);
+}
+
+.checkout-title {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  margin-bottom: 32px;
+}
+
+.checkout-card {
+  background: white;
+  border-radius: var(--radius-lg);
+  padding: 24px;
+  box-shadow: var(--shadow-sm);
+  margin-bottom: 24px;
+}
+
+.checkout-card-title {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.payment-options {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.payment-option {
+  border: 2px solid var(--border-light);
+  border-radius: var(--radius-md);
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.payment-option:hover {
+  border-color: var(--accent-orange);
+}
+
+.payment-option.active {
+  border-color: var(--accent-orange);
+  background-color: rgba(230, 126, 34, 0.05);
+}
+
+.payment-icon {
+  font-size: 1.5rem;
+  color: var(--accent-orange);
+}
+
+.order-summary-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+  font-size: 0.95rem;
+}
+
+.order-total-row {
+  border-top: 1px solid var(--border-light);
+  margin-top: 16px;
+  padding-top: 16px;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
+.btn-place-order {
+  width: 100%;
+  background: linear-gradient(135deg, var(--accent-orange), var(--accent-orange-hover));
+  color: white;
+  border: none;
+  border-radius: var(--radius-pill);
+  padding: 14px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  margin-top: 24px;
+  transition: var(--transition);
+}
+
+.btn-place-order:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(230, 126, 34, 0.3);
+}
+
+.btn-place-order:disabled {
+  background: var(--text-muted);
+  transform: none;
+  box-shadow: none;
+}

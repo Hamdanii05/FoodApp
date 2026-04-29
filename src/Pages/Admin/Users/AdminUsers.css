@@ -1,0 +1,30 @@
+.admin-users-page {
+  animation: fadeIn 0.4s ease-in-out;
+}
+
+.text-orange {
+  color: var(--accent-orange, #ff6b6b);
+}
+
+.admin-table-card {
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+  margin-top: 24px;
+}
+
+.btn-action-delete {
+  background: transparent;
+  color: #dc3545;
+  border: 1px solid transparent;
+  border-radius: 6px;
+  padding: 6px 10px;
+  transition: all 0.2s ease;
+}
+
+.btn-action-delete:hover {
+  background: #dc3545;
+  color: white;
+  border-color: #dc3545;
+}
