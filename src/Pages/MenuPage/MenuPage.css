@@ -18,7 +18,6 @@
   font-size: 0.95rem;
 }
 
-/* Search & Filter */
 .menu-toolbar {
   display: flex;
   gap: 16px;
@@ -62,7 +61,6 @@
   color: #bbb;
 }
 
-/* Category Filter */
 .category-filter {
   display: flex;
   gap: 10px;
@@ -112,7 +110,6 @@
   color: var(--text-dark);
 }
 
-/* Loading Skeleton */
 .skeleton-card {
   background: white;
   border-radius: var(--radius-lg);

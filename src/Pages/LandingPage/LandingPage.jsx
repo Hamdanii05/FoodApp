@@ -90,7 +90,6 @@ const LandingPage = () => {
                 </Container>
             </section>
 
-            {/* Categories */}
             <section className="section-padding">
                 <Container>
                     <div className="section-header">
@@ -115,7 +114,6 @@ const LandingPage = () => {
                 </Container>
             </section>
 
-            {/* Popular Menu */}
             <section className="section-padding bg-subtle">
                 <Container>
                     <div className="section-header">
@@ -143,7 +141,6 @@ const LandingPage = () => {
                 </Container>
             </section>
 
-            {/* How It Works */}
             <section className="section-padding">
                 <Container>
                     <div className="section-header">
@@ -176,7 +173,6 @@ const LandingPage = () => {
                 </Container>
             </section>
 
-            {/* CTA */}
             <section className="section-padding" style={{ paddingTop: 0 }}>
                 <Container>
                     <div className="cta-section">

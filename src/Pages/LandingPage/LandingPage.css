@@ -134,7 +134,6 @@
   margin-top: 2px;
 }
 
-/* Categories Section */
 .section-padding {
   padding: 80px 0;
 }
@@ -203,12 +202,10 @@
   color: var(--text-dark);
 }
 
-/* Popular Menu */
 .bg-subtle {
   background-color: #f9f3eb;
 }
 
-/* How It Works */
 .step-card {
   text-align: center;
   padding: 40px 24px;
@@ -243,7 +240,6 @@
   line-height: 1.6;
 }
 
-/* CTA Section */
 .cta-section {
   background: linear-gradient(135deg, var(--accent-orange), var(--accent-orange-hover));
   border-radius: var(--radius-xl);

@@ -3,11 +3,9 @@
   position: relative;
   overflow: hidden;
   padding: 4rem 1rem;
-  /* Adjust height to account for navbar and footer approx */
   min-height: calc(100vh - 200px);
 }
 
-/* Background decorative elements */
 .not-found-wrapper::before,
 .not-found-wrapper::after {
   content: "";

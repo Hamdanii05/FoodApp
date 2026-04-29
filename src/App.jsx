@@ -5,13 +5,11 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import useGlobalScrollFade from "./Utils/useGlobalScrollFade";
 
-// Components
 import MyNavbar from "./Components/MyNavbar/MyNavbar";
 import Footer from "./Components/Footer/Footer";
 import ProtectedRoute from "./Components/ProtectedRoute/ProtectedRoute";
 import AdminRoute from "./Components/AdminRoute/AdminRoute";
 
-// Pages
 import LandingPage from "./Pages/LandingPage/LandingPage";
 import LoginPage from "./Pages/LoginPage/LoginPage";
 import RegisterPage from "./Pages/RegisterPage/RegisterPage";

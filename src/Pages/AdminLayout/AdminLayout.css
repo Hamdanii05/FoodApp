@@ -56,7 +56,7 @@
 @media (max-width: 991px) {
   .admin-main-content {
     margin-left: 0;
-    padding-top: 80px; /* Make space for hamburger toggle */
+    padding-top: 80px; 
   }
   
   .admin-mobile-toggle {
